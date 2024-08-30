@@ -23,7 +23,7 @@ Este projeto é uma aplicação Node.js construída com Express.js, TypeScript e
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-repositorio/shopper-test.git](https://github.com/rodrigoaguerra/teste_shopper.git
+   git clone https://github.com/rodrigoaguerra/teste_shopper.git
    ```
 2. Navegue ate a pasta do projeto:
    ```bash
