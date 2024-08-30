@@ -29,7 +29,11 @@ Este projeto é uma aplicação Node.js construída com Express.js, TypeScript e
    ```bash
    cd shopper-test
    ```
-3. Execute o Docker Compose:
+3. Adicione o arquivo **.env** ao projeto:
+   ```bash
+   cd shopper-test
+   ```
+4. Execute o Docker Compose:
    ```bash
    docker-compose up -d
    ```
