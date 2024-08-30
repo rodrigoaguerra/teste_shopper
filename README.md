@@ -33,3 +33,16 @@ Este projeto é uma aplicação Node.js construída com Express.js, TypeScript e
    ```bash
    docker-compose up -d
    ```
+## Testes
+
+Para facilitar o teste da aplicação, um arquivo de importação para o Postman está disponível na raiz do projeto. Este arquivo contém todos os endpoints configurados e prontos para uso, permitindo que você teste facilmente as funcionalidades da aplicação.
+
+- **Passo 1**: Importe o arquivo 'Teste_Shopper.postman_collection.json' no Postman.
+- **Passo 2**: Execute os endpoints conforme necessário para validar o comportamento da aplicação.
+
+Isso garantirá que você possa interagir com os endpoints de forma eficiente e verificar se a aplicação está funcionando corretamente.
+
+## Uso
+- Para fazer upload de uma imagem e extrair medidas, faça uma requisição POST para /upload com os dados da imagem em formato base64.
+- Para atualizar uma medida, faça uma requisição PATCH para /confirm com os dados da atualização.
+- Para listar medidas por ID de cliente, faça um requidição GET para o endpoint /{customer_id}/list.
