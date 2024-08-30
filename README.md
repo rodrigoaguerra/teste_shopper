@@ -25,7 +25,11 @@ Este projeto é uma aplicação Node.js construída com Express.js, TypeScript e
    ```bash
    git clone https://github.com/seu-repositorio/shopper-test.git
    ```
-2. Execute o Docker Compose:
+2. Navegue ate a pasta do projeto:
+   ```bash
+   cd shopper-test
+   ```
+3. Execute o Docker Compose:
    ```bash
    docker-compose up -d
    ```
