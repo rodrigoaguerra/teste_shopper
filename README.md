@@ -27,15 +27,15 @@ Este projeto é uma aplicação Node.js construída com Express.js, TypeScript e
    ```
 2. Navegue ate a pasta do projeto:
    ```bash
-   cd shopper-test
+   cd teste_shopper/
    ```
 3. Adicione o arquivo **.env** ao projeto:
    ```bash
-   cd shopper-test
+   echo "GEMINI_API_KEY=<chave da API>" > .env # echo GEMINI_API_KEY=<chave da API> > .env // no windows
    ```
 4. Execute o Docker Compose:
    ```bash
-   docker-compose up -d
+   docker compose up -d # docker-compose up -d // no windows
    ```
 ## Testes
 
